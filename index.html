@@ -164,7 +164,10 @@
       <h2 id="newsletter">AI Primitives</h2>
       <div class="newsletter">
         <p>A weekly newsletter on applied AI, agentic systems, and the engineering primitives behind them.</p>
-        <iframe class="substack-embed" src="https://primitivesai.substack.com/embed" title="Subscribe to AI Primitives" loading="lazy"></iframe>
+        <form class="subscribe" action="https://primitivesai.substack.com/subscribe" method="get" target="_blank" rel="noopener">
+          <input class="sub-input" type="email" name="email" required placeholder="you@example.com" aria-label="Email address">
+          <button class="sub-btn" type="submit">subscribe</button>
+        </form>
         <p><a href="https://primitivesai.substack.com/">Read AI Primitives on Substack →</a></p>
       </div>
     </section>
