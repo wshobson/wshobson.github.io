@@ -1,0 +1,22 @@
+# Seth Hobson
+
+> Seth Hobson is a software engineer with 15+ years of experience in applied AI, data engineering, and distributed systems. He is the founder of Major 7 Apps, creator of the wshobson/agents plugin marketplace, and author of the AI Primitives newsletter.
+
+Currently Senior AI Engineer at United Data Technologies; previously senior software engineer at Apple (2015–2021) and Kuali (2021–2023).
+
+## Links
+
+- [sethhobson.com](https://sethhobson.com/): personal site (this site)
+- [GitHub](https://github.com/wshobson): open-source work
+- [Major 7 Apps](https://major7apps.com/): product studio — hub linking to all current applications
+- [AI Primitives](https://primitivesai.substack.com/): weekly newsletter on applied AI, agentic systems, and engineering primitives
+- [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
+
+## Projects
+
+- [agents](https://github.com/wshobson/agents): agentic plugin marketplace — 82 plugins, 191 agents, 155 skills, 102 commands, shipped to five harnesses (Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI)
+- [commands](https://github.com/wshobson/commands): 52 multi-agent orchestration slash commands for Claude Code
+- [Capital Companion](https://capitalcompanion.ai): AI-powered trading insights, stock analysis, and risk management
+- [Pensyve](https://github.com/major7apps/pensyve): universal memory runtime for AI agents — episodic/semantic/procedural memory, 8-signal fusion retrieval, FSRS forgetting
+- [Maverick MCP](https://github.com/wshobson/maverick-mcp): personal stock-analysis MCP server
+- [Tiingo MCP](https://github.com/wshobson/tiingo-mcp): production-grade MCP server for the Tiingo financial data API, 17 tools, on PyPI
