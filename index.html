@@ -26,9 +26,11 @@
         "@type": "Person",
         "@id": "https://sethhobson.com/#person",
         "name": "Seth Hobson",
+        "alternateName": "wshobson",
         "url": "https://sethhobson.com/",
         "image": "https://sethhobson.com/og-image.png",
         "jobTitle": "Software Engineer",
+        "description": "Software engineer with 15+ years of experience building data-driven applications, distributed systems, and applied AI products.",
         "sameAs": [
           "https://github.com/wshobson",
           "https://www.linkedin.com/in/wshobson",
@@ -49,7 +51,19 @@
         "@id": "https://sethhobson.com/#website",
         "url": "https://sethhobson.com/",
         "name": "Seth Hobson",
-        "publisher": { "@id": "https://sethhobson.com/#person" }
+        "publisher": { "@id": "https://sethhobson.com/#person" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://sethhobson.com/#profile",
+        "url": "https://sethhobson.com/",
+        "name": "Seth Hobson, Software Engineer and Applied AI Builder",
+        "description": "Profile of Seth Hobson, creator of the wshobson/agents plugin marketplace, founder of Major 7 Apps, and author of AI Primitives.",
+        "dateModified": "2026-08-21",
+        "mainEntity": { "@id": "https://sethhobson.com/#person" },
+        "isPartOf": { "@id": "https://sethhobson.com/#website" },
+        "inLanguage": "en"
       }
     ]
   }
@@ -72,6 +86,7 @@
     <h1>Seth Hobson</h1>
     <p class="title-line">Software Engineer · Applied AI · Data Engineering · Founder @ Major 7 Apps</p>
     <p class="bio">I'm a software engineer with 15+ years building data-driven applications, services, and distributed systems at the intersection of finance, technology, and AI. These days I build agentic AI tooling and financial products, and write about the engineering primitives behind applied AI.</p>
+    <p class="updated">Profile updated <time datetime="2026-08-21">August 21, 2026</time>.</p>
     <ul class="links">
       <li><a href="https://github.com/wshobson">GitHub</a></li>
       <li><a href="https://www.linkedin.com/in/wshobson">LinkedIn</a></li>
@@ -90,14 +105,16 @@
             <a class="card-name" href="https://github.com/wshobson/agents">agents</a>
             <span class="card-stars"><img src="https://img.shields.io/github/stars/wshobson/agents?style=social" alt="GitHub stars for wshobson/agents" loading="lazy"></span>
           </div>
-          <p>Agentic plugin marketplace: 82 plugins, 191 agents, 155 skills, 102 commands — authored once in Markdown, shipped natively to five harnesses.</p>
+          <p>Agentic plugin marketplace with 92 plugins, 202 agents, 181 skills, and 105 commands. It is built for Claude Code and consumed natively across five additional agent environments.</p>
+          <p class="card-more"><a href="/projects/agents/">Project overview →</a></p>
         </div>
         <div class="card">
           <div class="card-head">
             <a class="card-name" href="https://github.com/wshobson/commands">commands</a>
             <span class="card-stars"><img src="https://img.shields.io/github/stars/wshobson/commands?style=social" alt="GitHub stars for wshobson/commands" loading="lazy"></span>
           </div>
-          <p>52 slash commands for Claude Code enabling multi-agent orchestration — full-stack workflows, incident response, ML pipelines, security hardening.</p>
+          <p>57 slash commands for Claude Code: 15 multi-agent workflows and 42 focused tools for development, operations, security, and data systems.</p>
+          <p class="card-more"><a href="/projects/commands/">Project overview →</a></p>
         </div>
         <div class="card">
           <div class="card-head">
@@ -111,6 +128,7 @@
             <span class="card-stars"><img src="https://img.shields.io/github/stars/major7apps/pensyve?style=social" alt="GitHub stars for major7apps/pensyve" loading="lazy"></span>
           </div>
           <p>Universal memory runtime for AI agents — episodic/semantic/procedural memory, 8-signal fusion retrieval, FSRS forgetting. Python, TypeScript, Go, MCP, REST, CLI.</p>
+          <p class="card-more"><a href="/projects/pensyve/">Project overview →</a></p>
         </div>
         <div class="card">
           <div class="card-head">
@@ -122,7 +140,7 @@
         <div class="card">
           <div class="card-head">
             <a class="card-name" href="https://github.com/major7apps/tiingo-mcp">Tiingo MCP</a>
-            <span class="card-stars"><img src="https://img.shields.io/github/stars/wshobson/tiingo-mcp?style=social" alt="GitHub stars for wshobson/tiingo-mcp" loading="lazy"></span>
+            <span class="card-stars"><img src="https://img.shields.io/github/stars/major7apps/tiingo-mcp?style=social" alt="GitHub stars for major7apps/tiingo-mcp" loading="lazy"></span>
           </div>
           <p>Production-grade MCP server for the Tiingo financial data API — 17 tools across stocks, forex, crypto, news, and fundamentals. On PyPI.</p>
         </div>

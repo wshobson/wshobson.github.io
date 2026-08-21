@@ -1,10 +1,10 @@
 # sethhobson.com
 
-Single-page personal site, served by GitHub Pages from this repo (`main`, root). Plain HTML/CSS — no build step.
+Static personal and project site, served by GitHub Pages from this repo (`main`, root). The site uses plain HTML and CSS with no build step.
 
 ## Maintenance contract
 
-The profile README at [wshobson/wshobson](https://github.com/wshobson/wshobson) is the content source of truth. When it changes (new project, title or positioning change), update `index.html` here in the same sitting.
+The profile README at [wshobson/wshobson](https://github.com/wshobson/wshobson) is the source of truth for profile content and project selection. Canonical project READMEs are the source of truth for project-specific facts. Keep `index.html`, `projects/*/index.html`, `llms.txt`, and `sitemap.xml` synchronized when those facts change.
 
 ## Regenerating the OG image
 

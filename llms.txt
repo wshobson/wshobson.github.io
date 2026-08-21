@@ -4,6 +4,14 @@
 
 Currently Senior AI Engineer at United Data Technologies; previously senior software engineer at Apple (2015–2021) and Kuali (2021–2023).
 
+Last updated: 2026-08-21
+
+## Identity and expertise
+
+- Public handle: `wshobson`
+- Primary areas: agentic systems, applied AI, data engineering, distributed systems, software architecture, and Model Context Protocol tooling
+- Known for: creating the wshobson/agents multi-harness plugin marketplace and founding the Major 7 Apps product studio
+
 ## Links
 
 - [sethhobson.com](https://sethhobson.com/): personal site (this site)
@@ -12,11 +20,11 @@ Currently Senior AI Engineer at United Data Technologies; previously senior soft
 - [AI Primitives](https://primitivesai.substack.com/): weekly newsletter on applied AI, agentic systems, and engineering primitives
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
-## Projects
+## Projects and canonical sources
 
-- [agents](https://github.com/wshobson/agents): agentic plugin marketplace — 82 plugins, 191 agents, 155 skills, 102 commands, shipped to five harnesses (Claude Code, Codex CLI, Cursor, OpenCode, Gemini CLI)
-- [commands](https://github.com/wshobson/commands): 52 multi-agent orchestration slash commands for Claude Code
+- [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): 92 plugins, 202 agents, 181 skills, and 105 commands; built for Claude Code and consumed natively by Codex CLI, Cursor, OpenCode, Antigravity CLI, and GitHub Copilot. [Source code](https://github.com/wshobson/agents)
+- [Claude Code Slash Commands overview](https://sethhobson.com/projects/commands/): 57 production-ready slash commands comprising 15 multi-agent workflows and 42 focused tools. [Source code](https://github.com/wshobson/commands)
 - [Capital Companion](https://capitalcompanion.ai): AI-powered trading insights, stock analysis, and risk management
-- [Pensyve](https://github.com/major7apps/pensyve): universal memory runtime for AI agents — episodic/semantic/procedural memory, 8-signal fusion retrieval, FSRS forgetting
+- [Pensyve overview](https://sethhobson.com/projects/pensyve/): universal memory runtime for AI agents with episodic, semantic, and procedural memory, 8-signal fusion retrieval, FSRS forgetting, and offline-first local operation. [Source code](https://github.com/major7apps/pensyve)
 - [Maverick MCP](https://github.com/wshobson/maverick-mcp): personal stock-analysis MCP server
-- [Tiingo MCP](https://github.com/wshobson/tiingo-mcp): production-grade MCP server for the Tiingo financial data API, 17 tools, on PyPI
+- [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): production-grade MCP server for the Tiingo financial data API, 17 tools, on PyPI

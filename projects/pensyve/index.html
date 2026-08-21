@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pensyve Agent Memory Runtime | Seth Hobson</title>
+  <meta name="description" content="Pensyve is Major 7 Apps' universal, offline-first memory runtime for AI agents, with episodic, semantic, and procedural memory plus 8-signal retrieval.">
+  <link rel="canonical" href="https://sethhobson.com/projects/pensyve/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d1117">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethhobson.com/projects/pensyve/">
+  <meta property="og:title" content="Pensyve Agent Memory Runtime | Seth Hobson">
+  <meta property="og:description" content="A framework-agnostic, protocol-native, offline-first memory runtime for AI agents.">
+  <meta property="og:image" content="https://sethhobson.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://sethhobson.com/#person",
+        "name": "Seth Hobson",
+        "alternateName": "wshobson",
+        "url": "https://sethhobson.com/"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://major7apps.com/#org",
+        "name": "Major 7 Apps",
+        "url": "https://major7apps.com/",
+        "founder": { "@id": "https://sethhobson.com/#person" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://sethhobson.com/#website",
+        "url": "https://sethhobson.com/",
+        "name": "Seth Hobson"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://sethhobson.com/projects/pensyve/#page",
+        "url": "https://sethhobson.com/projects/pensyve/",
+        "name": "Pensyve Agent Memory Runtime",
+        "description": "An overview of Pensyve, a framework-agnostic and offline-first memory runtime for AI agents.",
+        "dateModified": "2026-08-21",
+        "author": { "@id": "https://sethhobson.com/#person" },
+        "about": { "@id": "https://sethhobson.com/projects/pensyve/#software" },
+        "isPartOf": { "@id": "https://sethhobson.com/#website" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://sethhobson.com/projects/pensyve/#software",
+        "name": "Pensyve",
+        "description": "A universal memory runtime for AI agents with episodic, semantic, and procedural memory.",
+        "codeRepository": "https://github.com/major7apps/pensyve",
+        "programmingLanguage": ["Rust", "Python", "TypeScript", "Go"],
+        "license": "https://www.apache.org/licenses/LICENSE-2.0",
+        "author": { "@id": "https://major7apps.com/#org" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Seth Hobson", "item": "https://sethhobson.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Pensyve", "item": "https://sethhobson.com/projects/pensyve/" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZPK8257Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XZPK8257Y5');
+  </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="spo2J+pEpPun+g5cjv8deA" async></script>
+</head>
+<body>
+<div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Seth Hobson</a> / Projects / Pensyve</nav>
+
+  <header>
+    <p class="prompt">~ $ inspect projects/pensyve</p>
+    <h1>Pensyve Agent Memory Runtime</h1>
+    <p class="title-line">Open source, offline first, framework agnostic, protocol native</p>
+    <p class="project-lede">Pensyve is Major 7 Apps' universal memory runtime for AI agents. It gives applications episodic, semantic, and procedural memory; ranks recall with an 8-signal retrieval pipeline; models forgetting with FSRS; and runs locally by default while exposing Python, TypeScript, Go, MCP, REST, and CLI interfaces.</p>
+    <p class="updated">Updated <time datetime="2026-08-21">August 21, 2026</time>.</p>
+    <ul class="links">
+      <li><a href="https://github.com/major7apps/pensyve">Source on GitHub</a></li>
+      <li><a href="https://pensyve.com/docs/getting-started/mcp-setup">MCP setup</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <article>
+      <section aria-labelledby="pensyve-facts">
+        <p class="section-label">cat project.json</p>
+        <h2 id="pensyve-facts">At a glance</h2>
+        <ul class="facts">
+          <li><strong>Publisher:</strong> <a href="https://major7apps.com/">Major 7 Apps</a>, founded by Seth Hobson</li>
+          <li><strong>Memory types:</strong> episodic, semantic, and procedural</li>
+          <li><strong>Retrieval:</strong> 8-signal fusion with FSRS-based forgetting</li>
+          <li><strong>Storage:</strong> local SQLite and ONNX by default, with optional PostgreSQL</li>
+          <li><strong>Interfaces:</strong> Python, TypeScript, Go, MCP, REST, and CLI</li>
+          <li><strong>License:</strong> Apache 2.0</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="pensyve-purpose">
+        <p class="section-label">cat design-goals.md</p>
+        <h2 id="pensyve-purpose">Why an agent memory runtime</h2>
+        <p>Agent applications often lose useful context between sessions or couple memory to a single framework. Pensyve separates storage, retrieval, reinforcement, and forgetting into a reusable runtime that can serve different agent stacks through standard interfaces.</p>
+        <p>The offline-first path keeps local applications independent of a hosted service. Teams that need shared or larger deployments can use PostgreSQL while retaining the same protocol-facing model.</p>
+      </section>
+
+      <section aria-labelledby="pensyve-model">
+        <p class="section-label">ls memory/</p>
+        <h2 id="pensyve-model">Memory model</h2>
+        <table class="project-table">
+          <thead><tr><th>Memory</th><th>Role</th></tr></thead>
+          <tbody>
+            <tr><td>Episodic</td><td>Records events and experiences that an agent may need to recall later</td></tr>
+            <tr><td>Semantic</td><td>Stores durable facts and concepts independently of one conversation</td></tr>
+            <tr><td>Procedural</td><td>Preserves learned approaches and outcomes for repeated work</td></tr>
+            <tr><td>Retrieval and forgetting</td><td>Combines eight ranking signals and FSRS scheduling to surface useful memories over time</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="pensyve-use">
+        <p class="section-label">run install</p>
+        <h2 id="pensyve-use">Use from an existing stack</h2>
+        <p>Pensyve can be integrated through a language SDK or connected as an MCP server. The canonical repository documents local and PostgreSQL-backed deployment, REST and CLI access, and installation for each supported language:</p>
+        <pre><code>pip install pensyve
+npm install @pensyve/sdk
+go get github.com/major7apps/pensyve/pensyve-go/v3@latest</code></pre>
+        <p>See the <a href="https://github.com/major7apps/pensyve">source repository</a> and <a href="https://pensyve.com/docs/getting-started/mcp-setup">Pensyve MCP setup guide</a> for current details.</p>
+      </section>
+
+      <section aria-labelledby="pensyve-related">
+        <p class="section-label">ls related/</p>
+        <h2 id="pensyve-related">Related projects</h2>
+        <ul class="links">
+          <li><a href="/projects/agents/">Agentic Plugin Marketplace</a></li>
+          <li><a href="/projects/commands/">Claude Code Slash Commands</a></li>
+          <li><a href="/">Seth Hobson profile and project index</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Seth Hobson | <a href="/">sethhobson.com</a> | source at <a href="https://github.com/major7apps/pensyve">major7apps/pensyve</a></p>
+  </footer>
+</div>
+</body>
+</html>

@@ -56,9 +56,13 @@ h2 { font-size: 18px; margin: 0 0 16px; color: var(--heading); }
 .title-line { color: var(--muted); font-size: 14px; margin: 0 0 16px; }
 
 .bio { max-width: 64ch; margin: 0 0 16px; }
+.updated { color: var(--muted); font-size: 12.5px; margin: -6px 0 16px; }
 
 .links { display: flex; flex-wrap: wrap; gap: 8px 20px; padding: 0; margin: 0 0 8px; list-style: none; }
 .links li::before { content: "→ "; color: var(--accent); }
+
+.breadcrumb { color: var(--muted); font-size: 12.5px; margin: 0 0 20px; }
+.project-lede { max-width: 68ch; font-size: 16px; margin: 0 0 16px; }
 
 section { margin-top: 48px; }
 
@@ -79,6 +83,28 @@ section { margin-top: 48px; }
 .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .card-name { font-weight: 600; }
 .card-stars img { vertical-align: middle; }
+.card .card-more { margin-top: 10px; }
+
+.facts { list-style: none; padding: 0; margin: 0; }
+.facts li { padding: 8px 0; border-bottom: 1px dashed var(--border); }
+.facts li:last-child { border-bottom: none; }
+.facts strong { color: var(--heading); }
+
+.project-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.project-table th,
+.project-table td { border: 1px solid var(--border); padding: 9px 10px; text-align: left; vertical-align: top; }
+.project-table th { background: var(--bg-card); color: var(--heading); }
+
+pre {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-card);
+  padding: 12px 14px;
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+}
 
 .xp-list { list-style: none; padding: 0; margin: 0; }
 .xp-list li { padding: 6px 0; border-bottom: 1px dashed var(--border); }
