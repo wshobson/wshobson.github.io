@@ -39,7 +39,7 @@ Update `sitemap.xml`'s `<lastmod>` when the homepage changes meaningfully. It mu
 - The retired WordPress articles intentionally remain unavailable. Do not restore them, redirect them to unrelated pages, or add them to the sitemap. `404.html` must remain `noindex` and GitHub Pages must continue returning a real 404 status.
 - Keep the GA4 and Ahrefs Web Analytics snippets in both `index.html` and `404.html`, using the same project IDs on each page. This preserves homepage measurement and visibility into visits arriving through retired backlinks.
 - Ahrefs Site Audit is intentionally configured to use only `https://sethhobson.com/sitemap.xml`, with crawl depth `0` and Backlinks disabled as a URL source. Backlink analysis belongs in Site Explorer. Do not start a replacement crawl until the intended commit is live.
-- The Ahrefs "Canonical URL has no incoming internal links" issue is disabled for this project because the canonical homepage is the only indexable page.
+- The Ahrefs "Canonical URL has no incoming internal links" and indexable "Orphan page" issues are disabled for this project because the canonical homepage is the only indexable page.
 
 ## Structure and style
 
