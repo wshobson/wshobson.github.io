@@ -48,7 +48,7 @@ When a canonical page changes meaningfully, update its visible `<time>`, JSON-LD
 - Preserve reciprocal discovery: the homepage links to project pages, project pages link home and to related projects, and `llms.txt` links both the first-party overview and canonical source.
 - Prefer durable first-hand explanations over keyword variations or AI-specific filler. Do not add claims, testimonials, statistics, FAQ markup, or schema solely to target search systems.
 - `robots.txt` is the crawler-access policy. Do not change AI search or training bot access without an explicit policy decision.
-- `AGENTS.md` is repository guidance for coding agents; it is not public search content or a ranking signal.
+- `AGENTS.md` is repository guidance for coding agents; `CLAUDE.md` is a symlink to it. It is not public search content or a ranking signal.
 
 ## Migration and analytics invariants
 
@@ -60,6 +60,6 @@ When a canonical page changes meaningfully, update its visible `<time>`, JSON-LD
 ## Structure and style
 
 - All styling lives in `styles.css` and uses variables from `:root`. GitHub-dark is the default; light mode overrides via `prefers-color-scheme`. Do not hardcode theme colors.
-- Preserve the terminal aesthetic and monospace typography. New sections use `.section-label`, an `h2` with an ID, and matching `aria-labelledby` on the section.
+- Preserve the terminal aesthetic and monospace typography. Section labels render as shell commands (`~ $ whoami`, `ls projects/`) via `.section-label`. New sections follow the same pattern: `<p class="section-label">…</p>`, an `h2` with an ID, and matching `aria-labelledby` on the section.
 - The homepage has two card grids: Products (commercial sites, no star badge) and Open Source (GitHub repos with a shields.io star badge). Pensyve appears in both, as on major7apps.com.
 - Project detail pages live at `projects/<slug>/index.html`, use root-relative asset links, include a breadcrumb navigation landmark, and link back to the homepage plus related projects.
