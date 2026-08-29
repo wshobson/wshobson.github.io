@@ -4,7 +4,7 @@
 
 Currently Senior AI Engineer at United Data Technologies; previously senior software engineer at Apple (2015–2021) and Kuali (2021–2023).
 
-Last updated: 2026-08-21
+Last updated: 2026-08-29
 
 ## Identity and expertise
 
@@ -22,9 +22,9 @@ Last updated: 2026-08-21
 
 ## Projects and canonical sources
 
-- [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): 92 plugins, 202 agents, 181 skills, and 105 commands; built for Claude Code and consumed natively by Codex CLI, Cursor, OpenCode, Antigravity CLI, and GitHub Copilot. [Source code](https://github.com/wshobson/agents)
-- [Claude Code Slash Commands overview](https://sethhobson.com/projects/commands/): 57 production-ready slash commands comprising 15 multi-agent workflows and 42 focused tools. [Source code](https://github.com/wshobson/commands)
-- [Capital Companion](https://capitalcompanion.ai): AI-powered trading insights, stock analysis, and risk management
-- [Pensyve overview](https://sethhobson.com/projects/pensyve/): universal memory runtime for AI agents with episodic, semantic, and procedural memory, 8-signal fusion retrieval, FSRS forgetting, and offline-first local operation. [Source code](https://github.com/major7apps/pensyve)
-- [Maverick MCP](https://github.com/wshobson/maverick-mcp): personal stock-analysis MCP server
-- [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): production-grade MCP server for the Tiingo financial data API, 17 tools, on PyPI
+- [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, and more. [Source code](https://github.com/wshobson/agents)
+- [Claude Code Slash Commands overview](https://sethhobson.com/projects/commands/): production-ready slash commands for Claude Code. [Source code](https://github.com/wshobson/commands)
+- [Capital Companion](https://capitalcompanion.ai): AI-assisted position sizing, risk management, and trade journaling for active traders; free tier available
+- [Pensyve overview](https://sethhobson.com/projects/pensyve/): offline-first memory runtime for AI agents with 8-signal retrieval, FSRS decay, and native MCP support. [Source code](https://github.com/major7apps/pensyve)
+- [Maverick MCP](https://github.com/wshobson/maverick-mcp): personal stock-analysis MCP server with technical indicators, screening, backtesting, and portfolio tracking for any MCP client
+- [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): native Rust MCP server for the Tiingo financial data API covering stocks, forex, crypto, news, fundamentals, and corporate actions
