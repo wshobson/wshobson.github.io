@@ -20,7 +20,7 @@ Regenerate the OG image after editing `og-source.html`:
 
 ## Content contract
 
-The profile README at [wshobson/wshobson](https://github.com/wshobson/wshobson) is the source of truth for profile content and project selection. Canonical project READMEs are the source of truth for project-specific facts. Verify volatile counts and supported environments before publishing them here.
+The profile README at [wshobson/wshobson](https://github.com/wshobson/wshobson) is the source of truth for profile content and project selection. Canonical project READMEs are the source of truth for project-specific facts. Verify volatile counts and supported environments before publishing them here. Short product and repo descriptions on the homepage and in `llms.txt` match [major7apps.com](https://major7apps.com) word for word; products in development there are not listed here.
 
 The same profile and project content is duplicated in several places that must stay in sync when it changes:
 
@@ -34,5 +34,5 @@ The same profile and project content is duplicated in several places that must s
 
 - All styling lives in `styles.css`, driven by CSS variables in `:root`. Dark theme (GitHub-dark palette) is the default; light theme overrides via `@media (prefers-color-scheme: light)`. Use the variables, not hardcoded colors.
 - The design is a terminal aesthetic: monospace font throughout, section labels rendered as shell commands (`~ $ whoami`, `ls projects/`) via the `.section-label` class. New sections should follow the same pattern: `<p class="section-label">…</p>` + `<h2 id="…">` + `aria-labelledby` on the `<section>`.
-- Project cards in the grid use `.card` with an optional shields.io star badge; GitHub-hosted projects get one, external products (e.g. Capital Companion) don't.
+- The homepage has two card grids: Products (commercial sites, no star badge) and Open Source (GitHub repos with a shields.io star badge). Pensyve appears in both, as on major7apps.com.
 - Project detail pages use root-relative assets, breadcrumb navigation, and reciprocal links to the homepage and related projects.

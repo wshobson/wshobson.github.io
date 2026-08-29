@@ -20,11 +20,15 @@ Last updated: 2026-08-29
 - [AI Primitives](https://primitivesai.substack.com/): weekly newsletter on applied AI, agentic systems, and engineering primitives
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
-## Projects and canonical sources
+## Products
+
+- [Pensyve](https://pensyve.com): universal memory runtime for AI agents; persistent, cross-session memory with 8-signal recall, FSRS decay, and a built-in knowledge graph; local-first, open source, and available as a managed service
+- [Capital Companion](https://capitalcompanion.ai): AI-assisted position sizing, risk management, and trade journaling for active traders; free tier available
+
+## Open-source projects and canonical sources
 
 - [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, and more. [Source code](https://github.com/wshobson/agents)
 - [Claude Code Slash Commands overview](https://sethhobson.com/projects/commands/): production-ready slash commands for Claude Code. [Source code](https://github.com/wshobson/commands)
-- [Capital Companion](https://capitalcompanion.ai): AI-assisted position sizing, risk management, and trade journaling for active traders; free tier available
 - [Pensyve overview](https://sethhobson.com/projects/pensyve/): offline-first memory runtime for AI agents with 8-signal retrieval, FSRS decay, and native MCP support. [Source code](https://github.com/major7apps/pensyve)
 - [Maverick MCP](https://github.com/wshobson/maverick-mcp): personal stock-analysis MCP server with technical indicators, screening, backtesting, and portfolio tracking for any MCP client
 - [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): native Rust MCP server for the Tiingo financial data API covering stocks, forex, crypto, news, fundamentals, and corporate actions

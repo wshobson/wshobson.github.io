@@ -29,7 +29,7 @@ Pushing `main` deploys immediately. Verify the Pages workflow completed for the 
 
 ## Content contract
 
-The profile README at [wshobson/wshobson](https://github.com/wshobson/wshobson) is the source of truth for Seth's profile, project selection, title, and positioning. Each project's canonical README is the source of truth for volatile project facts such as counts, supported environments, interfaces, and licensing. Verify those facts at the source before publishing updates here.
+The profile README at [wshobson/wshobson](https://github.com/wshobson/wshobson) is the source of truth for Seth's profile, project selection, title, and positioning. Each project's canonical README is the source of truth for volatile project facts such as counts, supported environments, interfaces, and licensing. Verify those facts at the source before publishing updates here. Short product and repo descriptions on the homepage and in `llms.txt` match [major7apps.com](https://major7apps.com) word for word; products in development there are not listed here.
 
 Keep duplicated content synchronized across:
 
@@ -61,5 +61,5 @@ When a canonical page changes meaningfully, update its visible `<time>`, JSON-LD
 
 - All styling lives in `styles.css` and uses variables from `:root`. GitHub-dark is the default; light mode overrides via `prefers-color-scheme`. Do not hardcode theme colors.
 - Preserve the terminal aesthetic and monospace typography. New sections use `.section-label`, an `h2` with an ID, and matching `aria-labelledby` on the section.
-- Project cards use `.card`. Add shields.io star badges to GitHub-hosted projects, not external products.
+- The homepage has two card grids: Products (commercial sites, no star badge) and Open Source (GitHub repos with a shields.io star badge). Pensyve appears in both, as on major7apps.com.
 - Project detail pages live at `projects/<slug>/index.html`, use root-relative asset links, include a breadcrumb navigation landmark, and link back to the homepage plus related projects.
