@@ -83,6 +83,7 @@ section { margin-top: 48px; }
 .card-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .card-name { font-weight: 600; }
 .card-stars img { vertical-align: middle; }
+.card-status { color: var(--muted); font-size: 12px; white-space: nowrap; }
 .card .card-more { margin-top: 10px; }
 
 .facts { list-style: none; padding: 0; margin: 0; }

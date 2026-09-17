@@ -4,7 +4,7 @@
 
 Currently Senior AI Engineer at United Data Technologies; previously senior software engineer at Apple (2015–2021) and Kuali (2021–2023).
 
-Last updated: 2026-08-29
+Last updated: 2026-09-17
 
 ## Identity and expertise
 
@@ -20,10 +20,10 @@ Last updated: 2026-08-29
 - [AI Primitives](https://primitivesai.substack.com/): weekly newsletter on applied AI, agentic systems, and engineering primitives
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
-## Products
+## Products in development
 
-- [Pensyve](https://pensyve.com): universal memory runtime for AI agents; persistent, cross-session memory with 8-signal recall, FSRS decay, and a built-in knowledge graph; local-first, open source, and available as a managed service
-- [Capital Companion](https://capitalcompanion.ai): AI-assisted position sizing, risk management, and trade journaling for active traders; free tier available
+- [QueryPlan](https://queryplan.dev): Learn SQL performance from real execution plans. Interactive exercises are graded by running your actual queries, and result correctness and plan efficiency both count.
+- Ambient Alpha: Ambient market intelligence for shared screens. It's a native tvOS display for unattended and shared screens that shows market pulse, breadth and sector leadership, watchlist intelligence, catalysts, and portfolio risk at a glance.
 
 ## Open-source projects and canonical sources
 
