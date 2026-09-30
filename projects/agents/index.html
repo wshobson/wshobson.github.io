@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Agentic Plugin Marketplace | Seth Hobson</title>
-  <meta name="description" content="Seth Hobson's open-source agentic plugin marketplace: 94 plugins, 202 agents, 184 skills, 105 commands, and 16 orchestrators across seven agent harnesses.">
+  <meta name="description" content="Seth Hobson's open-source plugin marketplace for AI coding tools, with 94 plugins that hold 202 agents, 184 skills, and 105 commands for seven tools.">
   <link rel="canonical" href="https://sethhobson.com/projects/agents/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
@@ -14,7 +14,7 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://sethhobson.com/projects/agents/">
   <meta property="og:title" content="Agentic Plugin Marketplace | Seth Hobson">
-  <meta property="og:description" content="Production-ready agents, skills, commands, and orchestrators authored once and adapted to seven agent harnesses.">
+  <meta property="og:description" content="Agents, skills, and commands written once in Markdown and converted for seven AI coding tools.">
   <meta property="og:image" content="https://sethhobson.com/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -40,7 +40,7 @@
         "@id": "https://sethhobson.com/projects/agents/#page",
         "url": "https://sethhobson.com/projects/agents/",
         "name": "Agentic Plugin Marketplace",
-        "description": "An open-source marketplace of production-ready agents, skills, commands, and orchestrators for seven agent harnesses.",
+        "description": "An open-source marketplace of agents, skills, and commands for seven AI coding tools.",
         "dateModified": "2026-09-30",
         "author": { "@id": "https://sethhobson.com/#person" },
         "about": { "@id": "https://sethhobson.com/projects/agents/#software" },
@@ -52,7 +52,7 @@
         "@id": "https://sethhobson.com/projects/agents/#software",
         "name": "Agentic Plugin Marketplace",
         "alternateName": "wshobson/agents",
-        "description": "A multi-harness marketplace of composable agentic plugins maintained by Seth Hobson.",
+        "description": "A plugin marketplace for AI coding tools, maintained by Seth Hobson.",
         "codeRepository": "https://github.com/wshobson/agents",
         "programmingLanguage": "Markdown",
         "license": "https://opensource.org/license/mit",
@@ -85,8 +85,8 @@
   <header>
     <p class="prompt">~ $ inspect projects/agents</p>
     <h1>Agentic Plugin Marketplace</h1>
-    <p class="title-line">Open source, seven agent environments, composable workflows</p>
-    <p class="project-lede">The Agentic Plugin Marketplace is Seth Hobson's open-source collection of production-ready agent workflow building blocks. It contains 94 plugins, 202 agents, 184 skills, 105 commands, and 16 orchestrators. The repository keeps one Markdown source and adapts it to the formats required by Claude Code and six other agent environments.</p>
+    <p class="title-line">Open source plugins for seven AI coding tools</p>
+    <p class="project-lede">The Agentic Plugin Marketplace is Seth Hobson's open-source set of plugins for AI coding tools. It contains 94 plugins, 202 agents, 184 skills, 105 commands, and 16 orchestrators, which are commands that coordinate several agents on one task. The repository keeps one Markdown source and converts it to the formats that Claude Code and six other AI coding tools expect.</p>
     <p class="updated">Updated <time datetime="2026-09-30">September 30, 2026</time>.</p>
     <ul class="links">
       <li><a href="https://github.com/wshobson/agents">Source on GitHub</a></li>
@@ -101,9 +101,9 @@
         <h2 id="agents-facts">At a glance</h2>
         <ul class="facts">
           <li><strong>Creator and maintainer:</strong> Seth Hobson (<a href="https://github.com/wshobson">wshobson</a>)</li>
-          <li><strong>Current scope:</strong> 94 plugins, 202 agents, 184 skills, 105 commands, and 16 orchestrators</li>
-          <li><strong>Supported environments:</strong> Claude Code, OpenAI Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi</li>
-          <li><strong>Distribution model:</strong> isolated, composable plugins installed only when needed</li>
+          <li><strong>Contents:</strong> 94 plugins, 202 agents, 184 skills, 105 commands, and 16 orchestrators</li>
+          <li><strong>Supported tools:</strong> Claude Code, OpenAI Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot, and Pi</li>
+          <li><strong>Installation:</strong> you install only the plugins you need, and each plugin works on its own</li>
           <li><strong>License:</strong> MIT</li>
         </ul>
       </section>
@@ -111,15 +111,15 @@
       <section aria-labelledby="agents-design">
         <p class="section-label">cat architecture.md</p>
         <h2 id="agents-design">How it works</h2>
-        <p>The repository keeps the reusable instructions in Markdown and converts them into the native conventions expected by each supported harness. A plugin can combine specialist agents, task skills, slash commands, and orchestration patterns without requiring the full marketplace to be loaded into every session.</p>
-        <p>The plugin structure keeps context focused. Users select the capability they need, and maintainers can update one shared source for every agent environment.</p>
+        <p>The repository keeps the instructions in Markdown files and converts them into the format that each supported tool expects. A plugin can combine specialist agents, skills, commands, and orchestrators, and installing one plugin doesn't load the rest of the marketplace into the session.</p>
+        <p>Because each plugin loads only its own files, the model's context holds only what the current task needs. Maintainers edit one shared source, and the build converts that source for every supported tool.</p>
       </section>
 
       <section aria-labelledby="agents-coverage">
         <p class="section-label">ls capabilities/</p>
         <h2 id="agents-coverage">Capability coverage</h2>
         <table class="project-table">
-          <thead><tr><th>Area</th><th>Representative work</th></tr></thead>
+          <thead><tr><th>Area</th><th>Examples</th></tr></thead>
           <tbody>
             <tr><td>Software delivery</td><td>Architecture, implementation, testing, debugging, and code review workflows</td></tr>
             <tr><td>Security</td><td>Threat modeling, attack-path analysis, vulnerability triage, and validation</td></tr>
@@ -132,17 +132,17 @@
 
       <section aria-labelledby="agents-start">
         <p class="section-label">run install</p>
-        <h2 id="agents-start">Start with the marketplace</h2>
-        <p>Claude Code users can register the repository as a marketplace, then install only the plugins relevant to the current task:</p>
+        <h2 id="agents-start">Install the marketplace</h2>
+        <p>In Claude Code, you add the repository as a marketplace and then install only the plugins you need:</p>
         <pre><code>/plugin marketplace add wshobson/agents</code></pre>
-        <p>For the full plugin catalog, harness-specific installation details, and component source, use the <a href="https://github.com/wshobson/agents">canonical GitHub repository</a>.</p>
+        <p>The <a href="https://github.com/wshobson/agents">GitHub repository</a> has the full plugin catalog, the setup steps for each supported tool, and the source for every plugin.</p>
       </section>
 
       <section aria-labelledby="agents-related">
         <p class="section-label">ls related/</p>
         <h2 id="agents-related">Related projects</h2>
         <ul class="links">
-          <li><a href="/projects/commands/">Claude Code Slash Commands</a></li>
+          <li><a href="/projects/commands/">Claude Code Slash Commands (archived)</a></li>
           <li><a href="/projects/pensyve/">Pensyve agent memory runtime</a></li>
           <li><a href="/">Seth Hobson profile and project index</a></li>
         </ul>

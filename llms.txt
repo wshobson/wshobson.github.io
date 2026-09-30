@@ -1,34 +1,33 @@
 # Seth Hobson
 
-> Seth Hobson is a software engineer with 15+ years of experience in applied AI, data engineering, and distributed systems. He is the founder of Major 7 Apps, creator of the wshobson/agents plugin marketplace, and author of the AI Primitives newsletter.
+> Seth Hobson is a software engineer with more than 15 years of experience in applied AI, data engineering, and distributed systems. He founded Major 7 Apps, created the wshobson/agents plugin marketplace, and writes the AI Primitives newsletter.
 
-Currently Senior AI Engineer at United Data Technologies; previously senior software engineer at Apple (2015–2021) and Kuali (2021–2023).
+Seth is a Senior AI Engineer at United Data Technologies. He was previously a senior software engineer at Apple from 2015 to 2021 and at Kuali from 2021 to 2023.
 
 Last updated: 2026-09-30
 
 ## Identity and expertise
 
 - Public handle: `wshobson`
-- Primary areas: agentic systems, applied AI, data engineering, distributed systems, software architecture, and Model Context Protocol tooling
-- Known for: creating the wshobson/agents multi-harness plugin marketplace and founding the Major 7 Apps product studio
+- Main areas: AI agents, applied AI, data engineering, distributed systems, software architecture, and tools for the Model Context Protocol (MCP)
+- Known for: creating the wshobson/agents plugin marketplace for AI coding tools, and founding the Major 7 Apps product studio
 
 ## Links
 
 - [sethhobson.com](https://sethhobson.com/): personal site (this site)
-- [GitHub](https://github.com/wshobson): open-source work
-- [Major 7 Apps](https://major7apps.com/): product studio — hub linking to all current applications
-- [AI Primitives](https://primitivesai.substack.com/): newsletter on the infrastructure behind production AI agents: orchestration, memory, evaluation, identity, and the other primitives they run on
+- [GitHub](https://github.com/wshobson): open source work
+- [Major 7 Apps](https://major7apps.com/): product studio site that links to all current applications
+- [AI Primitives](https://primitivesai.substack.com/): newsletter about the infrastructure that production AI agents run on, e.g., orchestration, memory, evaluation, and identity
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
 ## Products in development
 
 - [QueryPlan](https://queryplan.dev): Learn SQL performance from real execution plans. Interactive exercises are graded by running your actual queries, and result correctness and plan efficiency both count.
-- Ambient Alpha: Ambient market intelligence for shared screens. It's a native tvOS display for unattended and shared screens that shows market pulse, breadth and sector leadership, watchlist intelligence, catalysts, and portfolio risk at a glance.
+- Ambient Alpha: Live market data for the big screen. A native tvOS app that puts market moves, sector breadth, your watchlist, and upcoming economic releases on an Apple TV, readable at a glance from across the room.
 
-## Open-source projects and canonical sources
+## Open source projects and canonical sources
 
-- [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): multi-harness agentic plugin marketplace for Claude Code, Codex CLI, Cursor, and more. [Source code](https://github.com/wshobson/agents)
-- [Claude Code Slash Commands overview](https://sethhobson.com/projects/commands/): production-ready slash commands for Claude Code. [Source code](https://github.com/wshobson/commands)
+- [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): A plugin marketplace of agents, skills, and commands for Claude Code, Codex CLI, Cursor, and other AI coding tools. [Source code](https://github.com/wshobson/agents)
 - [Pensyve overview](https://sethhobson.com/projects/pensyve/): offline-first memory runtime for AI agents with 8-signal retrieval, FSRS decay, and native MCP support. [Source code](https://github.com/major7apps/pensyve)
-- [Maverick MCP](https://github.com/wshobson/maverick-mcp): personal stock-analysis MCP server with technical indicators, screening, backtesting, and portfolio tracking for any MCP client
-- [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): native Rust MCP server for the Tiingo financial data API covering stocks, forex, crypto, news, fundamentals, and corporate actions
+- [Maverick MCP](https://github.com/wshobson/maverick-mcp): An MCP server for market data analysis, screening, and backtesting that works with any MCP client.
+- [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): A Rust MCP server for the Tiingo market data API.
