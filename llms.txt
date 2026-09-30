@@ -4,7 +4,7 @@
 
 Currently Senior AI Engineer at United Data Technologies; previously senior software engineer at Apple (2015–2021) and Kuali (2021–2023).
 
-Last updated: 2026-09-17
+Last updated: 2026-09-30
 
 ## Identity and expertise
 
@@ -17,7 +17,7 @@ Last updated: 2026-09-17
 - [sethhobson.com](https://sethhobson.com/): personal site (this site)
 - [GitHub](https://github.com/wshobson): open-source work
 - [Major 7 Apps](https://major7apps.com/): product studio — hub linking to all current applications
-- [AI Primitives](https://primitivesai.substack.com/): weekly newsletter on applied AI, agentic systems, and engineering primitives
+- [AI Primitives](https://primitivesai.substack.com/): newsletter on the infrastructure behind production AI agents: orchestration, memory, evaluation, identity, and the other primitives they run on
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
 ## Products in development
