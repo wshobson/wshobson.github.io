@@ -17,7 +17,7 @@ Last updated: 2026-09-30
 - [sethhobson.com](https://sethhobson.com/): personal site (this site)
 - [GitHub](https://github.com/wshobson): open source work
 - [Major 7 Apps](https://major7apps.com/): product studio site that links to all current applications
-- [AI Primitives](https://primitivesai.substack.com/): newsletter about the infrastructure that production AI agents run on, e.g., orchestration, memory, evaluation, and identity
+- [Swapping Symbols](https://swappingsymbols.substack.com/): Swapping Symbols is my personal blog about what I’m building and learning. I write about practical findings in AI, software, and other subjects I want to explore
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
 ## Products in development
