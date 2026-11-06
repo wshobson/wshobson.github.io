@@ -2,7 +2,7 @@
 
 > Seth Hobson is a software engineer with more than 15 years of experience in applied AI, data engineering, and distributed systems. He founded Major 7 Apps, created the wshobson/agents plugin marketplace, and writes the AI Primitives newsletter.
 
-Seth is a Senior AI Engineer at United Data Technologies. He was previously a senior software engineer at Apple from 2015 to 2021 and at Kuali from 2021 to 2023.
+Seth is a Senior Applied AI Engineer at United Data Technologies. He was previously a senior software engineer at Apple from 2015 to 2021 and at Kuali from 2021 to 2023.
 
 Last updated: 2026-09-30
 
