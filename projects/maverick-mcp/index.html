@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maverick MCP Stock Market Server | Seth Hobson</title>
+  <meta name="description" content="Seth Hobson's open-source MCP server for stock analysis, portfolio tracking, and Python backtesting, using Yahoo Finance data with no API key for core tools.">
+  <link rel="canonical" href="https://sethhobson.com/projects/maverick-mcp/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d1117">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethhobson.com/projects/maverick-mcp/">
+  <meta property="og:title" content="Maverick MCP Stock Market Server | Seth Hobson">
+  <meta property="og:description" content="A local MCP server for stock analysis, screening, portfolio tracking, and Python backtesting.">
+  <meta property="og:image" content="https://sethhobson.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://sethhobson.com/#person",
+        "name": "Seth Hobson",
+        "alternateName": "wshobson",
+        "url": "https://sethhobson.com/"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://sethhobson.com/#website",
+        "url": "https://sethhobson.com/",
+        "name": "Seth Hobson"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://sethhobson.com/projects/maverick-mcp/#page",
+        "url": "https://sethhobson.com/projects/maverick-mcp/",
+        "name": "Maverick MCP Stock Market Server",
+        "description": "An overview of Maverick MCP, a local MCP server for stock analysis, screening, portfolio tracking, and Python backtesting.",
+        "dateModified": "2026-11-06",
+        "author": { "@id": "https://sethhobson.com/#person" },
+        "about": { "@id": "https://sethhobson.com/projects/maverick-mcp/#software" },
+        "isPartOf": { "@id": "https://sethhobson.com/#website" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://sethhobson.com/projects/maverick-mcp/#software",
+        "name": "Maverick MCP",
+        "alternateName": "wshobson/maverick-mcp",
+        "description": "An MCP server for market data analysis, screening, and backtesting that works with any MCP client.",
+        "codeRepository": "https://github.com/wshobson/maverick-mcp",
+        "programmingLanguage": "Python",
+        "license": "https://opensource.org/license/mit",
+        "author": { "@id": "https://sethhobson.com/#person" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Seth Hobson", "item": "https://sethhobson.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Maverick MCP", "item": "https://sethhobson.com/projects/maverick-mcp/" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZPK8257Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XZPK8257Y5');
+  </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="spo2J+pEpPun+g5cjv8deA" async></script>
+</head>
+<body>
+<div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Seth Hobson</a> / Projects / Maverick MCP</nav>
+
+  <header>
+    <p class="prompt">~ $ inspect projects/maverick-mcp</p>
+    <h1>Maverick MCP Stock Market Server</h1>
+    <p class="title-line">Open source stock analysis that runs on your computer</p>
+    <p class="project-lede">Maverick MCP is Seth Hobson's open-source stock market server for the Model Context Protocol (MCP), the standard that lets an AI assistant call outside tools. It connects an assistant to Yahoo Finance data for stock analysis, screening, portfolio tracking, and Python backtesting. The server runs on your computer, keeps your portfolio, watchlists, and trade journal in a local database, and needs no API key for its core tools.</p>
+    <p class="updated">Updated <time datetime="2026-11-06">November 6, 2026</time>.</p>
+    <ul class="links">
+      <li><a href="https://github.com/wshobson/maverick-mcp">Source on GitHub</a></li>
+      <li><a href="https://github.com/wshobson/maverick-mcp/blob/main/docs/runbooks/mcp-clients.md">MCP client setup</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <article>
+      <section aria-labelledby="maverick-facts">
+        <p class="section-label">cat project.json</p>
+        <h2 id="maverick-facts">At a glance</h2>
+        <ul class="facts">
+          <li><strong>Creator and maintainer:</strong> Seth Hobson (<a href="https://github.com/wshobson">wshobson</a>)</li>
+          <li><strong>Tools:</strong> 38 core tools in release v1.2.1, plus 12 optional backtesting tools and 3 optional research tools</li>
+          <li><strong>Market data:</strong> Yahoo Finance through yfinance, with no API key for core tools</li>
+          <li><strong>Storage:</strong> local SQLite by default, with optional PostgreSQL and Redis</li>
+          <li><strong>Clients:</strong> Claude Desktop, Claude Code, Codex, Cursor, VS Code, and other MCP clients</li>
+          <li><strong>Language:</strong> Python 3.12 or later</li>
+          <li><strong>License:</strong> MIT</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="maverick-features">
+        <p class="section-label">ls tools/</p>
+        <h2 id="maverick-features">What it does</h2>
+        <table class="project-table">
+          <thead><tr><th>Area</th><th>What you can do</th></tr></thead>
+          <tbody>
+            <tr><td>Market data and technical analysis</td><td>Get quotes, historical prices, fundamentals, RSI, MACD, and observed support and resistance levels</td></tr>
+            <tr><td>Stock screening</td><td>Run bullish, bearish, and supply and demand screens over the symbols you have loaded</td></tr>
+            <tr><td>Portfolio tracking</td><td>Record positions, calculate average cost and profit or loss, review risk, manage watchlists, and keep a trade journal</td></tr>
+            <tr><td>Optional backtesting and research</td><td>Test strategies on historical data, compare results, or research companies and sectors with source citations</td></tr>
+          </tbody>
+        </table>
+        <p>The backtesting and research tools are optional packages. Research also needs a language model and a web search service that you configure, and those providers can charge for use.</p>
+      </section>
+
+      <section aria-labelledby="maverick-limits">
+        <p class="section-label">cat DISCLAIMER</p>
+        <h2 id="maverick-limits">Limits</h2>
+        <p>Maverick MCP is for education and information. It does not place orders or give financial advice, and a portfolio entry or journal trade is only a local record. Market data can be delayed, incomplete, or wrong, and backtests and technical indicators do not predict future returns.</p>
+      </section>
+
+      <section aria-labelledby="maverick-start">
+        <p class="section-label">run install</p>
+        <h2 id="maverick-start">Run the server</h2>
+        <p>Install Python 3.12 or later and uv. An MCP client that uses STDIO can then start the tagged release directly:</p>
+        <pre><code>uvx --from "git+https://github.com/wshobson/maverick-mcp@v1.2.1" maverick-mcp --transport stdio</code></pre>
+        <p>The <a href="https://github.com/wshobson/maverick-mcp">GitHub repository</a> covers installing from a clone, Docker, Streamable HTTP, the optional packages, and the configuration for each client.</p>
+      </section>
+
+      <section aria-labelledby="maverick-related">
+        <p class="section-label">ls related/</p>
+        <h2 id="maverick-related">Related projects</h2>
+        <ul class="links">
+          <li><a href="/projects/tiingo-mcp/">Tiingo MCP server</a></li>
+          <li><a href="/projects/agents/">Agentic Plugin Marketplace</a></li>
+          <li><a href="/projects/pensyve/">Pensyve agent memory runtime</a></li>
+          <li><a href="/">Seth Hobson profile and project index</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Seth Hobson | <a href="/">sethhobson.com</a> | source at <a href="https://github.com/wshobson/maverick-mcp">wshobson/maverick-mcp</a></p>
+  </footer>
+</div>
+</body>
+</html>

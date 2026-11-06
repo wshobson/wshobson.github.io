@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pensyve Agent Memory Runtime | Seth Hobson</title>
-  <meta name="description" content="Pensyve is Major 7 Apps' universal, offline-first memory runtime for AI agents, with episodic, semantic, and procedural memory plus 8-signal retrieval.">
+  <meta name="description" content="Pensyve is Major 7 Apps' open-source memory runtime for AI agents. It stores facts, conversations, and action outcomes locally and is in maintenance mode.">
   <link rel="canonical" href="https://sethhobson.com/projects/pensyve/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/styles.css">
@@ -14,7 +14,7 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://sethhobson.com/projects/pensyve/">
   <meta property="og:title" content="Pensyve Agent Memory Runtime | Seth Hobson">
-  <meta property="og:description" content="A framework-agnostic, protocol-native, offline-first memory runtime for AI agents.">
+  <meta property="og:description" content="An open-source runtime for persistent AI agent memory that runs locally, now in maintenance mode.">
   <meta property="og:image" content="https://sethhobson.com/og-image.png">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -47,8 +47,8 @@
         "@id": "https://sethhobson.com/projects/pensyve/#page",
         "url": "https://sethhobson.com/projects/pensyve/",
         "name": "Pensyve Agent Memory Runtime",
-        "description": "An overview of Pensyve, a framework-agnostic and offline-first memory runtime for AI agents.",
-        "dateModified": "2026-09-17",
+        "description": "An overview of Pensyve, an open-source runtime for persistent AI agent memory that runs locally.",
+        "dateModified": "2026-11-06",
         "author": { "@id": "https://sethhobson.com/#person" },
         "about": { "@id": "https://sethhobson.com/projects/pensyve/#software" },
         "isPartOf": { "@id": "https://sethhobson.com/#website" },
@@ -58,7 +58,7 @@
         "@type": "SoftwareSourceCode",
         "@id": "https://sethhobson.com/projects/pensyve/#software",
         "name": "Pensyve",
-        "description": "A universal memory runtime for AI agents with episodic, semantic, and procedural memory.",
+        "description": "An open-source runtime for persistent AI agent memory, with semantic, episodic, and procedural records.",
         "codeRepository": "https://github.com/major7apps/pensyve",
         "programmingLanguage": ["Rust", "Python", "TypeScript", "Go"],
         "license": "https://www.apache.org/licenses/LICENSE-2.0",
@@ -91,9 +91,9 @@
   <header>
     <p class="prompt">~ $ inspect projects/pensyve</p>
     <h1>Pensyve Agent Memory Runtime</h1>
-    <p class="title-line">Open source, offline first, framework agnostic, protocol native</p>
-    <p class="project-lede">Pensyve is Major 7 Apps' universal memory runtime for AI agents. It gives applications episodic, semantic, and procedural memory; ranks recall with an 8-signal retrieval pipeline; models forgetting with FSRS; and runs locally by default while exposing Python, TypeScript, Go, MCP, REST, and CLI interfaces.</p>
-    <p class="updated">Updated <time datetime="2026-09-17">September 17, 2026</time>.</p>
+    <p class="title-line">Open source agent memory that runs locally</p>
+    <p class="project-lede">Pensyve is Major 7 Apps' open-source runtime for persistent AI agent memory. It stores facts, conversations, observations, and action outcomes so an agent can retrieve them in later sessions. Its Rust engine keeps memory in local SQLite and runs embedding models locally, and you can use it from Python, an MCP server, a command-line tool, or a REST API. Local use doesn't need a Pensyve account or API key.</p>
+    <p class="updated">Updated <time datetime="2026-11-06">November 6, 2026</time>.</p>
     <ul class="links">
       <li><a href="https://github.com/major7apps/pensyve">Source on GitHub</a></li>
       <li><a href="https://github.com/major7apps/pensyve#mcp-server">MCP setup</a></li>
@@ -107,43 +107,52 @@
         <h2 id="pensyve-facts">At a glance</h2>
         <ul class="facts">
           <li><strong>Publisher:</strong> <a href="https://major7apps.com/">Major 7 Apps</a>, founded by Seth Hobson</li>
-          <li><strong>Memory types:</strong> episodic, semantic, and procedural</li>
-          <li><strong>Retrieval:</strong> 8-signal fusion with FSRS-based forgetting</li>
-          <li><strong>Storage:</strong> local SQLite and ONNX by default, with optional PostgreSQL</li>
-          <li><strong>Interfaces:</strong> Python, TypeScript, Go, MCP, REST, and CLI</li>
+          <li><strong>Status:</strong> maintenance mode, with security fixes and dependency updates and no new features planned</li>
+          <li><strong>Memory records:</strong> facts (semantic), conversations (episodic), action outcomes (procedural), and observations</li>
+          <li><strong>Retrieval:</strong> text matching, embeddings, and entity relationships, ranked across up to eight signals, with FSRS-based forgetting</li>
+          <li><strong>Storage:</strong> local SQLite with local embedding models; the HTTP gateway can use SQLite or PostgreSQL</li>
+          <li><strong>Interfaces:</strong> Python, MCP, CLI, and REST, plus TypeScript and Go clients for a gateway you run yourself</li>
           <li><strong>License:</strong> Apache 2.0</li>
         </ul>
       </section>
 
+      <section aria-labelledby="pensyve-status">
+        <p class="section-label">cat MAINTENANCE.md</p>
+        <h2 id="pensyve-status">Project status</h2>
+        <p>Pensyve Cloud closed on October 1, 2026, and its hosted service is no longer available. The open-source engine, SDKs, integrations, and documentation continue in the GitHub repository under the Apache 2.0 license. Releases now cover security fixes and dependency updates only. If you have a saved Cloud export, the repository's <a href="https://github.com/major7apps/pensyve/blob/main/docs/self-host.md">self-hosting guide</a> explains how to use it with your own gateway.</p>
+      </section>
+
       <section aria-labelledby="pensyve-purpose">
         <p class="section-label">cat design-goals.md</p>
-        <h2 id="pensyve-purpose">Why an agent memory runtime</h2>
-        <p>Agent applications often lose useful context between sessions or couple memory to a single framework. Pensyve separates storage, retrieval, reinforcement, and forgetting into a reusable runtime that can serve different agent stacks through standard interfaces.</p>
-        <p>The offline-first path keeps local applications independent of a hosted service. Teams that need shared or larger deployments can use PostgreSQL while retaining the same protocol-facing model.</p>
+        <h2 id="pensyve-purpose">How agent memory works</h2>
+        <p>Pensyve stores memory outside the language model. Your application saves facts or conversations, searches for relevant records, and adds the results to a later prompt. Reusing the same storage path and namespace lets an agent retrieve information across processes and sessions. Saving a memory doesn't train the model or change its weights.</p>
+        <p>Local use keeps memory on your own machine without a hosted service. Embedding models may download the first time they load, so prepare the model files before running without network access. To share one memory store, run the HTTP gateway with SQLite or PostgreSQL.</p>
       </section>
 
       <section aria-labelledby="pensyve-model">
         <p class="section-label">ls memory/</p>
         <h2 id="pensyve-model">Memory model</h2>
         <table class="project-table">
-          <thead><tr><th>Memory</th><th>Role</th></tr></thead>
+          <thead><tr><th>Record</th><th>Role</th></tr></thead>
           <tbody>
-            <tr><td>Episodic</td><td>Records events and experiences that an agent may need to recall later</td></tr>
-            <tr><td>Semantic</td><td>Stores durable facts and concepts independently of one conversation</td></tr>
-            <tr><td>Procedural</td><td>Preserves learned approaches and outcomes for repeated work</td></tr>
-            <tr><td>Retrieval and forgetting</td><td>Combines eight ranking signals and FSRS scheduling to surface useful memories over time</td></tr>
+            <tr><td>Facts (semantic)</td><td>Stores facts about users, projects, or other named entities</td></tr>
+            <tr><td>Conversations (episodic)</td><td>Records the messages and outcome of a session as an episode</td></tr>
+            <tr><td>Action outcomes (procedural)</td><td>Records the results of actions an agent took</td></tr>
+            <tr><td>Observations</td><td>Records what an agent noticed, for recall in later sessions</td></tr>
+            <tr><td>Retrieval and forgetting</td><td>Combines up to eight ranking signals, promotes repeated facts, and updates retention with an FSRS forgetting curve</td></tr>
           </tbody>
         </table>
+        <p>Your integration decides what to record and when to retrieve it. Recording a conversation doesn't automatically turn it into a successful procedure.</p>
       </section>
 
       <section aria-labelledby="pensyve-use">
         <p class="section-label">run install</p>
         <h2 id="pensyve-use">Use from an existing stack</h2>
-        <p>Pensyve can be integrated through a language SDK or connected as an MCP server. The canonical repository documents local and PostgreSQL-backed deployment, REST and CLI access, and installation for each supported language:</p>
+        <p>Install the SDK for your language. The Python SDK runs the engine inside your process, and the TypeScript and Go SDKs connect to an HTTP gateway that you run:</p>
         <pre><code>pip install pensyve
 npm install @pensyve/sdk
-go get github.com/major7apps/pensyve/pensyve-go/v3@latest</code></pre>
-        <p>See the <a href="https://github.com/major7apps/pensyve">source repository</a> and its <a href="https://github.com/major7apps/pensyve#mcp-server">MCP server section</a> for current details.</p>
+go get github.com/major7apps/pensyve/pensyve-go/v5@latest</code></pre>
+        <p>The <a href="https://github.com/major7apps/pensyve">source repository</a> covers the <a href="https://github.com/major7apps/pensyve#mcp-server">MCP server</a> for Claude Code, Codex, and Cursor, the HTTP gateway, the command-line tool, and the LangChain and LangGraph adapters.</p>
       </section>
 
       <section aria-labelledby="pensyve-related">
@@ -151,6 +160,8 @@ go get github.com/major7apps/pensyve/pensyve-go/v3@latest</code></pre>
         <h2 id="pensyve-related">Related projects</h2>
         <ul class="links">
           <li><a href="/projects/agents/">Agentic Plugin Marketplace</a></li>
+          <li><a href="/projects/maverick-mcp/">Maverick MCP stock market server</a></li>
+          <li><a href="/projects/tiingo-mcp/">Tiingo MCP server</a></li>
           <li><a href="/">Seth Hobson profile and project index</a></li>
         </ul>
       </section>

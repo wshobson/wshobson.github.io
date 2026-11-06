@@ -16,7 +16,7 @@ Before committing:
 
 - Run `git diff --check`.
 - Parse every JSON-LD block as JSON and parse `sitemap.xml` as XML.
-- Inspect `/`, `/projects/agents/`, `/projects/commands/`, `/projects/pensyve/`, and `/404.html` through the local server.
+- Inspect `/`, `/projects/agents/`, `/projects/commands/`, `/projects/maverick-mcp/`, `/projects/pensyve/`, `/projects/tiingo-mcp/`, and `/404.html` through the local server.
 - Check that every internal link resolves.
 
 After editing `og-source.html`, regenerate the social image:

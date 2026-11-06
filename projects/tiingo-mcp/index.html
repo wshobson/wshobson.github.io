@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiingo MCP Server | Seth Hobson</title>
+  <meta name="description" content="Tiingo MCP is a Rust MCP server from Major 7 Apps with 38 tools for Tiingo stock, forex, crypto, fund, news, fundamentals, and corporate action data.">
+  <link rel="canonical" href="https://sethhobson.com/projects/tiingo-mcp/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="stylesheet" href="/styles.css">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0d1117">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sethhobson.com/projects/tiingo-mcp/">
+  <meta property="og:title" content="Tiingo MCP Server | Seth Hobson">
+  <meta property="og:description" content="A Rust MCP server with 38 tools for Tiingo market data.">
+  <meta property="og:image" content="https://sethhobson.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://sethhobson.com/#person",
+        "name": "Seth Hobson",
+        "alternateName": "wshobson",
+        "url": "https://sethhobson.com/"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://major7apps.com/#org",
+        "name": "Major 7 Apps",
+        "url": "https://major7apps.com/",
+        "founder": { "@id": "https://sethhobson.com/#person" }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://sethhobson.com/#website",
+        "url": "https://sethhobson.com/",
+        "name": "Seth Hobson"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://sethhobson.com/projects/tiingo-mcp/#page",
+        "url": "https://sethhobson.com/projects/tiingo-mcp/",
+        "name": "Tiingo MCP Server",
+        "description": "An overview of Tiingo MCP, a Rust MCP server with 38 tools for Tiingo market data.",
+        "dateModified": "2026-11-06",
+        "author": { "@id": "https://sethhobson.com/#person" },
+        "about": { "@id": "https://sethhobson.com/projects/tiingo-mcp/#software" },
+        "isPartOf": { "@id": "https://sethhobson.com/#website" },
+        "inLanguage": "en"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://sethhobson.com/projects/tiingo-mcp/#software",
+        "name": "Tiingo MCP",
+        "alternateName": "major7apps/tiingo-mcp",
+        "description": "A Rust MCP server for the Tiingo market data API.",
+        "codeRepository": "https://github.com/major7apps/tiingo-mcp",
+        "programmingLanguage": "Rust",
+        "license": "https://opensource.org/license/mit",
+        "author": { "@id": "https://major7apps.com/#org" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Seth Hobson", "item": "https://sethhobson.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Tiingo MCP", "item": "https://sethhobson.com/projects/tiingo-mcp/" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZPK8257Y5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XZPK8257Y5');
+  </script>
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="spo2J+pEpPun+g5cjv8deA" async></script>
+</head>
+<body>
+<div class="container">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Seth Hobson</a> / Projects / Tiingo MCP</nav>
+
+  <header>
+    <p class="prompt">~ $ inspect projects/tiingo-mcp</p>
+    <h1>Tiingo MCP Server</h1>
+    <p class="title-line">Open source Tiingo market data for MCP clients, written in Rust</p>
+    <p class="project-lede">Tiingo MCP is Major 7 Apps' Rust server for the Model Context Protocol (MCP). It gives Claude Code, Claude Desktop, and other MCP clients 38 tools for Tiingo market data: stock prices, forex rates, crypto prices, fund data, financial news, company fundamentals, and corporate actions such as dividends and splits. Prebuilt binaries for macOS, Linux, and Windows mean you can install it without Rust.</p>
+    <p class="updated">Updated <time datetime="2026-11-06">November 6, 2026</time>.</p>
+    <ul class="links">
+      <li><a href="https://github.com/major7apps/tiingo-mcp">Source on GitHub</a></li>
+      <li><a href="https://crates.io/crates/tiingo-mcp">Package on crates.io</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <article>
+      <section aria-labelledby="tiingo-facts">
+        <p class="section-label">cat project.json</p>
+        <h2 id="tiingo-facts">At a glance</h2>
+        <ul class="facts">
+          <li><strong>Publisher:</strong> <a href="https://major7apps.com/">Major 7 Apps</a>, founded by Seth Hobson</li>
+          <li><strong>Contents:</strong> 38 tools, 3 fixed resources, 1 resource template, and 5 prompts</li>
+          <li><strong>Data source:</strong> the Tiingo API, which needs a Tiingo API key; the data you can reach depends on the features enabled for your key</li>
+          <li><strong>Installation:</strong> Homebrew, an install script, a Windows installer, a Claude Desktop bundle, or Cargo</li>
+          <li><strong>Transport:</strong> stdio, where the MCP client starts the server as a child process</li>
+          <li><strong>Language:</strong> Rust</li>
+          <li><strong>License:</strong> MIT</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="tiingo-coverage">
+        <p class="section-label">ls tools/</p>
+        <h2 id="tiingo-coverage">Data coverage</h2>
+        <table class="project-table">
+          <thead><tr><th>Area</th><th>Data</th></tr></thead>
+          <tbody>
+            <tr><td>Stocks</td><td>End of day prices and security metadata, intraday IEX prices, and consolidated and overnight (BOATS) equity prices</td></tr>
+            <tr><td>Forex and crypto</td><td>Forex quotes and history, crypto prices and metadata, and Crypto Yield lending data</td></tr>
+            <tr><td>Funds</td><td>Mutual fund and ETF fee metadata and fee metrics</td></tr>
+            <tr><td>Research</td><td>Asset search, financial news, company fundamentals, and financial statements</td></tr>
+            <tr><td>Corporate actions</td><td>Dividends, distributions, dividend yield, and splits</td></tr>
+            <tr><td>Live data</td><td>Short, bounded subscriptions to Tiingo's live IEX and consolidated equity feeds</td></tr>
+          </tbody>
+        </table>
+        <p>Some of these Tiingo datasets are in beta or need specific account features. A REST call uses API quota and bandwidth, and a live subscription uses bandwidth.</p>
+      </section>
+
+      <section aria-labelledby="tiingo-start">
+        <p class="section-label">run install</p>
+        <h2 id="tiingo-start">Install the server</h2>
+        <p>On macOS, install with Homebrew, then add the server to Claude Code with your Tiingo API key:</p>
+        <pre><code>brew tap major7apps/tiingo-mcp https://github.com/major7apps/tiingo-mcp
+brew install major7apps/tiingo-mcp/tiingo-mcp
+claude mcp add tiingo --env TIINGO_API_KEY=your-api-key-here -- tiingo-mcp</code></pre>
+        <p>The <a href="https://github.com/major7apps/tiingo-mcp">GitHub repository</a> covers the other installation methods, the configuration for other MCP clients, every tool, and the access rules for each dataset.</p>
+      </section>
+
+      <section aria-labelledby="tiingo-related">
+        <p class="section-label">ls related/</p>
+        <h2 id="tiingo-related">Related projects</h2>
+        <ul class="links">
+          <li><a href="/projects/maverick-mcp/">Maverick MCP stock market server</a></li>
+          <li><a href="/projects/pensyve/">Pensyve agent memory runtime</a></li>
+          <li><a href="/projects/agents/">Agentic Plugin Marketplace</a></li>
+          <li><a href="/">Seth Hobson profile and project index</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Seth Hobson | <a href="/">sethhobson.com</a> | source at <a href="https://github.com/major7apps/tiingo-mcp">major7apps/tiingo-mcp</a></p>
+  </footer>
+</div>
+</body>
+</html>
