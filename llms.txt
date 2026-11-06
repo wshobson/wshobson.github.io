@@ -20,10 +20,10 @@ Last updated: 2026-09-30
 - [Swapping Symbols](https://swappingsymbols.substack.com/): Swapping Symbols is my personal blog about what I’m building and learning. I write about practical findings in AI, software, and other subjects I want to explore
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
-## Products in development
+## Products
 
+- [Ambient Alpha](https://ambientalpha.com): Live market data for the big screen. A native tvOS app that puts market moves, sector breadth, your watchlist, and upcoming economic releases on an Apple TV, readable at a glance from across the room.
 - [QueryPlan](https://queryplan.dev): Learn SQL performance from real execution plans. Interactive exercises are graded by running your actual queries, and result correctness and plan efficiency both count.
-- Ambient Alpha: Live market data for the big screen. A native tvOS app that puts market moves, sector breadth, your watchlist, and upcoming economic releases on an Apple TV, readable at a glance from across the room.
 
 ## Open source projects and canonical sources
 
