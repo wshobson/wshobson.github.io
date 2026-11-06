@@ -1,10 +1,10 @@
 # Seth Hobson
 
-> Seth Hobson is a software engineer with more than 15 years of experience in applied AI, data engineering, and distributed systems. He founded Major 7 Apps, created the wshobson/agents plugin marketplace, and writes the AI Primitives newsletter.
+> I'm Seth Hobson, a software engineer with more than 15 years of experience in applied AI, data engineering, and distributed systems. I founded Major 7 Apps and created the wshobson/agents plugin marketplace. I also write the Swapping Symbols newsletter.
 
-Seth is a Senior Applied AI Engineer at United Data Technologies. He was previously a senior software engineer at Apple from 2015 to 2021 and at Kuali from 2021 to 2023.
+I'm a Senior Applied AI Engineer at United Data Technologies. Before that, I was a senior software engineer at Kuali from 2021 to 2023 and at Apple from 2015 to 2021.
 
-Last updated: 2026-09-30
+Last updated: 2026-11-06
 
 ## Identity and expertise
 
@@ -17,7 +17,7 @@ Last updated: 2026-09-30
 - [sethhobson.com](https://sethhobson.com/): personal site (this site)
 - [GitHub](https://github.com/wshobson): open source work
 - [Major 7 Apps](https://major7apps.com/): product studio site that links to all current applications
-- [Swapping Symbols](https://swappingsymbols.substack.com/): Swapping Symbols is my personal blog about what I’m building and learning. I write about practical findings in AI, software, and other subjects I want to explore
+- [Swapping Symbols](https://swappingsymbols.substack.com/): Swapping Symbols is my personal blog about what I'm building and learning. I write about practical findings in AI, software, and other subjects I want to explore.
 - [LinkedIn](https://www.linkedin.com/in/wshobson): professional profile
 
 ## Products
