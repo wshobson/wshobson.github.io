@@ -9,7 +9,7 @@ Last updated: 2026-09-30
 ## Identity and expertise
 
 - Public handle: `wshobson`
-- Main areas: AI agents, applied AI, data engineering, distributed systems, software architecture, and tools for the Model Context Protocol (MCP)
+- Main areas: AI agents, applied AI, forward deployed engineering, data engineering, distributed systems, software architecture, and tools for the Model Context Protocol (MCP)
 - Known for: creating the wshobson/agents plugin marketplace for AI coding tools, and founding the Major 7 Apps product studio
 
 ## Links
@@ -28,6 +28,6 @@ Last updated: 2026-09-30
 ## Open source projects and canonical sources
 
 - [Agentic Plugin Marketplace overview](https://sethhobson.com/projects/agents/): A plugin marketplace of agents, skills, and commands for Claude Code, Codex CLI, Cursor, and other AI coding tools. [Source code](https://github.com/wshobson/agents)
-- [Pensyve overview](https://sethhobson.com/projects/pensyve/): offline-first memory runtime for AI agents with 8-signal retrieval, FSRS decay, and native MCP support. [Source code](https://github.com/major7apps/pensyve)
 - [Maverick MCP](https://github.com/wshobson/maverick-mcp): An MCP server for market data analysis, screening, and backtesting that works with any MCP client.
+- [Pensyve overview](https://sethhobson.com/projects/pensyve/): offline-first memory runtime for AI agents with 8-signal retrieval, FSRS decay, and native MCP support. [Source code](https://github.com/major7apps/pensyve)
 - [Tiingo MCP](https://github.com/major7apps/tiingo-mcp): A Rust MCP server for the Tiingo market data API.
